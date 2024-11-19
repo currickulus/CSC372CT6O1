@@ -17,14 +17,14 @@ public class Main extends JFrame {//variables for element placeholders
         // this was the hardest part thinking of addresses
         students.add(new Student(1, "Thomas", "1913 Metamora st"));
         students.add(new Student(2, "Selby", "717 East 3rd st"));
-        students.add(new Student(3, "Laura", "1116 West 3rd st")); // Corrected 'laura' to 'Laura'
+        students.add(new Student(3, "Laura", "1116 West 3rd st")); 
         students.add(new Student(4, "Leah", "412 East 3rd st"));
         students.add(new Student(5, "Rex", "516 West Park st"));
         students.add(new Student(6, "Mike", "513 Walnut st"));
         students.add(new Student(7, "Cherri", "3351 70th Ave East"));
-        students.add(new Student(8, "Imani", "1901 Antimony")); // Removed comma after house number
+        students.add(new Student(8, "Imani", "1901 Antimony"));
         students.add(new Student(9, "Kim", "3320 John Creighton blvd"));
-        students.add(new Student(10, "Richard", "6726 South 81st st")); // Removed comma after house number
+        students.add(new Student(10, "Richard", "6726 South 81st st")); 
         //window title size and what x does
         setTitle("Student Sorter");
         setSize(600, 400);
